@@ -1,0 +1,56 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.13rem;
+}
+
+h1, h2{
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+}
+
+h1{
+    font-size: 3.75rem;
+}
+
+h2{
+    font-size: 2.25rem;
+}
+
+h3{
+    font-weight: 100;
+    font-size: 1.125rem;
+}
+
+.container{
+    max-width: 1128px;
+    margin: 0 auto;
+    border: 2px solid red;
+    text-align: center;
+}
+
+.color--dark{
+    color: #824936;
+}
+
+.color--light{
+    color: #F3EED9;
+}
+
+.hero{
+    background-color: #F3EED9;
+    min-height: 660px;
+    display:flex;
+    align-items: center;
+}
+
+.main__content{
+    display:flex;
+    justify-content: space-between;
+    border: 2px blue solid;
+}
