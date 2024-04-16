@@ -16,13 +16,14 @@ h1, h2{
 
 h1{
     font-size: 3.75rem;
+    color: #824936;
 }
 
 h2{
     font-size: 2.25rem;
 }
 
-h3{
+.intro_text{
     font-weight: 100;
     font-size: 1.125rem;
 }
@@ -30,22 +31,15 @@ h3{
 .container{
     max-width: 1128px;
     margin: 0 auto;
-    border: 2px solid red;
-    text-align: center;
+    /* border: 2px solid red;
+    text-align: center; */
 }
 
-.color--dark{
-    color: #824936;
-}
-
-.color--light{
-    color: #F3EED9;
-}
-
-.hero{
+.intro{
     background-color: #F3EED9;
     min-height: 660px;
-    display:flex;
+    text-align: center;
+    display: flex;
     align-items: center;
 }
 
