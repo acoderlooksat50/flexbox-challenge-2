@@ -6,45 +6,71 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 1.13rem;
+    font-size: 1.3125rem;
+    line-height: 1.6;
+}
+
+img{
+    max-width: 100%;  /*wil shrink if there's not enough room */
+
 }
 
 h1, h2{
+    margin-top: 0;
     font-family: "Playfair Display", serif;
     font-weight: 900;
+    line-height: 1.1;
 }
 
 h1{
-    font-size: 3.75rem;
-    color: #824936;
+    font-size: 3rem;
 }
 
 h2{
     font-size: 2.25rem;
+    color:#F3EED9;
 }
 
-.intro_text{
+.section-title--dark{
+    color: #824936;
+}
+
+.intro__text{
     font-weight: 100;
     font-size: 1.125rem;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: #222C2A;
+    margin: 0 0 .25em; /*em is relative to the elements font size*/
+}
+
+section{
+    padding: 4em 0;
 }
 
 .container{
     max-width: 1128px;
+    width: 80%;
     margin: 0 auto;
-    /* border: 2px solid red;
-    text-align: center; */
+    
 }
 
 .intro{
     background-color: #F3EED9;
+    color: #824936;
     min-height: 660px;
     text-align: center;
     display: flex;
     align-items: center;
 }
 
-.main__content{
-    display:flex;
-    justify-content: space-between;
-    border: 2px blue solid;
+.section-three{
+    background-color: #222C2A;
+    color:#fff;
+}
+
+.section-four{
+    background-color: #824936;
+    color: #fff;
+
 }
