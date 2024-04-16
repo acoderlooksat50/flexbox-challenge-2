@@ -91,4 +91,8 @@ section{
     .intro__title{
         font-size: 3.75em;
     }
+
+    .section-title--dark{
+        text-align: center;
+    }
 }
